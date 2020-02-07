@@ -1,0 +1,52 @@
+body {
+	font-family: sans-serif;
+	font-size: 14px;
+}
+h1, h2 {
+	font-family: serif;
+	border-bottom: 2px solid grey;
+}
+a {
+	text-decoration: none;
+}
+.italic {
+	font-style: italic;
+}
+.contents {
+	height: auto;
+	width: 270px;
+	border: 3px solid grey;
+	background: Lightgrey;
+}
+.contents ul {
+	list-style: none;
+	padding-left: 5px;
+}
+table {
+	width: 500px;
+	margin: auto;
+}
+table, th, td {
+	border: 2px solid black;
+}
+th {
+	background: grey;
+}
+td {
+	background: lightgrey
+}
+caption {
+	font-weight: bold;
+}
+.gallery {
+	list-style: none;
+}
+.gallerybox {
+	display: block;
+	text-align: center;
+	display: inline;
+}
+.gallerythumb img {
+	width: 200px;
+	height: 100px;
+}
